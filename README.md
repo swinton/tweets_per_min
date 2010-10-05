@@ -15,3 +15,6 @@ Usage
     In [6]: tpm.next()
     Out[6]: 66300.0
     
+Contact
+-------
+Via [email](http://scr.im/stevie) or even [twitter](http://twitter.com/steveWINton). :)
