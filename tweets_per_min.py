@@ -32,7 +32,7 @@ if __name__ == "__main__":
     user = raw_input("Username: ")
     passwd = getpass.getpass()
     try:
-        for tpm in firehose_tweets_per_min(user, passwd):
+        for tpm in tweets_per_min(user, passwd):
             sys.stdout.write(str(tpm) + "\n")
             sys.stdout.flush()
     except KeyboardInterrupt, e:
