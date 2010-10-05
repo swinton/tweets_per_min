@@ -5,7 +5,7 @@ import getpass
 import sys
 import tweetstream
 
-def firehose_tweets_per_min(user, passwd):
+def tweets_per_min(user, passwd):
     """
     Emits an estimated live "tweets per minute" metric every 5 seconds based on 
     sample tweets provided by Twitter's 'spritzer' stream.
